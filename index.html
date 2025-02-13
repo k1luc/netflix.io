@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <link rel="stylesheet" href="../../dist/output.css">
+</head>
+
+<body class="h-fit w-full bg-[url(../assets/login-bg.jpg)] bg-cover bg-no-repeat">
+
+  <div class="bg-black/50 absolute w-full h-fit">
+
+    <header>
+      <img class="w-50 mx-70" src="../../assets/netflix-logo.png" alt="Logo da Netflix">
+    </header>
+
+    <main class="flex justify-center pb-20">
+
+      <section class="bg-black/70 w-2/8 rounded text-white p-14 space-y-8">
+
+        <h2 class="text-3xl font-bold">Entrar</h2>
+
+        <div class="space-y-3">
+          <input type="text"
+            class="w-full h-12 bg-neutral-800 rounded p-5 placeholder:text-neutral-500 text-neutral-300"
+            placeholder="Email ou número de telefone">
+          <input type="password"
+            class="w-full h-12 bg-neutral-800 rounded p-5 placeholder:text-neutral-500 text-neutral-300"
+            placeholder="Senha">
+        </div>
+
+        <div class="space-y-2">
+
+          <button
+            class="bg-red-600 w-full p-3 cursor-pointer font-bold rounded hover:bg-red-700 transition-all duration-300 ease-in-out"><a
+              href="/home.html">Entrar</a></button>
+
+          <div class="flex justify-between">
+            <div class="flex items-center">
+              <input type="checkbox" name="remenber" id="remenber" class="mr-1 cursor-pointer">
+              <label for="remenber" class="text-sm text-neutral-400">Lembre-se de mim</label>
+            </div>
+
+            <a href="#" class="text-sm text-neutral-400 hover:underline">Precisa de ajuda?</a>
+          </div>
+        </div>
+
+        <div class="space-y-2 pb-30">
+          <p class="text-neutral-400">Novo por aqui? <a href="#" class="text-white hover:underline">Assine agora.</a>
+          </p>
+
+          <p class="text-neutral-400 text-sm">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é
+            um robô. <a href="#" class="text-blue-500 hover:underline">Saiba mais.</a></p>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="bg-black/70 w-full h-64 text-neutral-400 py-8 px-52 space-y-8">
+      <p>Dúvidas? Ligue <a href="#" class="hover:underline">0800 591 2876</a></p>
+
+      <div class="grid grid-cols-4 gap-4">
+
+        <div><a href="#">Perguntas frequentes</a></div>
+        <div><a href="#">Central de Ajuda</a></div>
+        <div><a href="#">Termos de Uso</a></div>
+        <div><a href="#">Privacidade</a></div>
+        <div><a href="#">Preferências de cookies</a></div>
+        <div><a href="#">Informações corporativas</a></div>
+      </div>
+
+      <select class="bg-transparent border px-2 py-3 rounded border-neutral-400/50" name="" id="">
+        <option class="bg-black" value="">🌐 Português</option>
+        <option class="bg-black" value="">🌐 Inglês</option>
+      </select>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
